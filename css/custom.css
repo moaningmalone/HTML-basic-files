@@ -1,0 +1,103 @@
+/**
+ * normalize
+ */
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+img {
+  border: 0;
+}
+nav ul {
+  list-style-type: none;
+}
+
+
+
+/** General
+-------------------------------------------------------------------------------*/
+h1 {
+  font-size: 20px;
+  color: red;
+}
+h2 {
+  font-size: 18px;
+  color: green;
+}
+p {
+  font-size: 12px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+}
+
+
+
+/* Flexbox
+-------------------------------------------------------------------------------*/
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+}
+.flex-item {
+  flex: 1;
+  padding: 12px;
+  border: solid 1px #e7e7e7;
+}
+.flex-first {
+  order: 2;
+}
+.flex-second {
+  flex-grow: 2;
+}
+
+
+/**
+ * Flexbox Media
+ */
+@media (max-width: 480px ) {
+  .grid_row--sm {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 720px ) {
+  .grid_row--md {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 960px ) {
+  .grid__row--lg {
+    flex-direction: row;
+  }
+}
+
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+
+
+}
