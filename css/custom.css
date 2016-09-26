@@ -21,9 +21,31 @@ summary {
 }
 img {
   border: 0;
+  max-width: 100%;
 }
 nav ul {
   list-style-type: none;
+}
+
+
+/** Menu Navigation
+-------------------------------------------------------------------------------*/
+
+ul#main-menu li a {
+  color: black;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+ul#main-menu ul li a {
+  font-size: 12px;
+}
+
+ul#main-menu li a:hover,
+ul#main-menu li.active a {
+  color: red;
+}
+ul#main-menu ul {
+  padding-left: 8px;
 }
 
 

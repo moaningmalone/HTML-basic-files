@@ -12,15 +12,31 @@
 
 <body>
   <script src="js/scripts.js"></script>
-</body>
- <nav class="SETCLASS" role="navigation">
- </nav>
 
+ <header>
+  <div class="container">
+   <nav class="SETCLASS" role="navigation">
+     <ul id="main-menu">
+      <li class="active"><a href="#fakelink">active link</a></li>
+      <li><a href="#fakelink">some link</a></li>
+      <li><a href="#fakelink">submenu</a>
+        <ul>
+          <li><a href="#fakelink">submenu link</a></li>
+        </ul>
+      </li>
+     </ul>
+   </nav>
+  </div>
+ </header>
 
-
+<main>
  <div class="flex-container grid_row--md">
    <div class="flex-item flex-first">
      <p>1 Lorem Ipsum blablabla. Lorem Ipsum blablabla. Lorem Ipsum blablabla.</p>
+      <div class="image">
+       <img src="http://billlawrenceonline.com/wp-content/uploads/2016/04/Screen-Shot-2016-04-07-at-12.37.32-PM.png" alt="burger" />        
+      </div>
+
    </div>
    <div class="flex-item flex-second">
      <p>2 Lorem Ipsum blablabla. Lorem Ipsum blablabla. Lorem Ipsum blablabla.</p>
@@ -38,6 +54,7 @@
      <p>6 Lorem Ipsum blablabla. Lorem Ipsum blablabla. Lorem Ipsum blablabla.</p>
    </div>
  </div><!-- /container -->
+ </main>
 
-
+</body>
 </html>
